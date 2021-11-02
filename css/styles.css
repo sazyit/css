@@ -1,0 +1,117 @@
+.top{
+  background-color: #7FC8A9	;
+  padding-bottom: 5px;
+  height: 600px;
+}
+body{
+background-color: #e0ffff	;
+margin: 0 ;
+text-align: center;
+}
+/* margin: 0 auto 0 auto   to center any thing with margin*/
+h1{
+  margin: 0 auto 0 auto;
+  font-size: 50px;
+  color: purple;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  font-family: 'Sacramento', cursive;
+}
+.mid0{
+  font-size: 100px;
+  position: relative;
+  top: 100px;
+}
+.midl{
+  margin: 0 auto 0 auto;
+  font-size: 30px;
+  color: khaki	;
+  position: relative;
+  top: 100px;
+  font-weight: normal;
+
+}
+.dev{
+  text-decoration: underline;
+  margin: 0 auto 0 auto;
+  font-weight: normal;
+
+}
+.mid{
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  position: absolute;
+  right: 250px;
+  top: 260px
+}
+.down{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  display:inline-block;
+  position:absolute;
+  right: 50px;
+
+}
+.mid2{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  position:absolute;
+  left: 250px;
+  top: 260px
+}
+.down2{
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  position:absolute;
+  left: 50px;
+
+}
+
+.mountain{
+  position: relative;
+  top:   67px;
+  left:  150px;
+}
+.cloud{
+  position: relative;
+  right: 550px ;
+  bottom: 100px;
+}
+.cloud2{
+  position: relative;
+  left: 150px;
+  bottom: 350px;
+}
+.profile2{
+  top: 220px;
+  right: 650px;
+  width: 200px;
+  border-radius: 100%;
+}
+.tools{
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+/*  line-height: incres space for word up down*/
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.eductaion{
+  width: 15%;
+  float :right;
+  margin-left:  30px;
+/*   clear: left; to remov raping (float) with class*/
+}
